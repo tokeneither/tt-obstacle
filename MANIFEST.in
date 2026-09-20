@@ -1,0 +1,10 @@
+include README.md README.ru.md LICENSE CITATION.cff CHANGELOG.md CONTRIBUTING.md
+include .gitignore
+recursive-include .github *.yml
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include experiments *.py
+recursive-include tests *.py
+recursive-include theory *.md
+recursive-include research *.py *.md *.json
+recursive-include results *.json *.csv *.png *.md

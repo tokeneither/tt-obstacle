@@ -1,0 +1,104 @@
+{
+  "scope": "Constructed-input scaling experiment; no timing or PDE-solver claims",
+  "cases": [
+    {
+      "package_version": "0.1.0",
+      "numpy_version": "2.4.6",
+      "seed": 20260920,
+      "dimension": 4,
+      "mode_size": 3,
+      "dense_tensor_entries_not_assembled": "81",
+      "original_stored_floats": 126,
+      "original_maximum_stored_bond": 6,
+      "scope": "Core-only constructed-input experiment; sampling is not a global numerical certificate",
+      "repairs": [
+        {
+          "method": "quadratic",
+          "stored_floats": 2232,
+          "maximum_stored_bond": 30,
+          "relative_energy_error": 0.007933205768881542,
+          "relative_triangle_bound": 0.011008767059483277,
+          "sampled_minimum_increment": 4.835107032974406e-05,
+          "sample_count": 100,
+          "rounding_mass_tolerance_met": false
+        },
+        {
+          "method": "core",
+          "stored_floats": 36,
+          "maximum_stored_bond": 2,
+          "relative_energy_error": 0.01947748844938047,
+          "relative_triangle_bound": 0.02374676276931015,
+          "sampled_minimum_increment": 0.013690188776001921,
+          "sample_count": 100,
+          "rounding_mass_tolerance_met": false
+        }
+      ]
+    },
+    {
+      "package_version": "0.1.0",
+      "numpy_version": "2.4.6",
+      "seed": 20260920,
+      "dimension": 8,
+      "mode_size": 3,
+      "dense_tensor_entries_not_assembled": "6561",
+      "original_stored_floats": 558,
+      "original_maximum_stored_bond": 6,
+      "scope": "Core-only constructed-input experiment; sampling is not a global numerical certificate",
+      "repairs": [
+        {
+          "method": "quadratic",
+          "stored_floats": 13032,
+          "maximum_stored_bond": 30,
+          "relative_energy_error": 0.012512099498315863,
+          "relative_triangle_bound": 0.01953302799696439,
+          "sampled_minimum_increment": 2.788459923275255e-05,
+          "sample_count": 100,
+          "rounding_mass_tolerance_met": false
+        },
+        {
+          "method": "core",
+          "stored_floats": 84,
+          "maximum_stored_bond": 2,
+          "relative_energy_error": 0.17494911966704918,
+          "relative_triangle_bound": 0.18333762942065904,
+          "sampled_minimum_increment": 0.285032239263022,
+          "sample_count": 100,
+          "rounding_mass_tolerance_met": false
+        }
+      ]
+    },
+    {
+      "package_version": "0.1.0",
+      "numpy_version": "2.4.6",
+      "seed": 20260920,
+      "dimension": 16,
+      "mode_size": 3,
+      "dense_tensor_entries_not_assembled": "43046721",
+      "original_stored_floats": 1422,
+      "original_maximum_stored_bond": 6,
+      "scope": "Core-only constructed-input experiment; sampling is not a global numerical certificate",
+      "repairs": [
+        {
+          "method": "quadratic",
+          "stored_floats": 34632,
+          "maximum_stored_bond": 30,
+          "relative_energy_error": 0.023310229044616597,
+          "relative_triangle_bound": 0.04014485842480469,
+          "sampled_minimum_increment": 5.755115499539443e-05,
+          "sample_count": 100,
+          "rounding_mass_tolerance_met": false
+        },
+        {
+          "method": "core",
+          "stored_floats": 180,
+          "maximum_stored_bond": 2,
+          "relative_energy_error": 5.900342088743261,
+          "relative_triangle_bound": 5.916573954405076,
+          "sampled_minimum_increment": 21.673921328520322,
+          "sample_count": 100,
+          "rounding_mass_tolerance_met": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "status": "passed",
+  "scope": "Floating-point theorem and actual TT-SVD audits; no PDE solver or interval certification",
+  "interaction_cases": [
+    {
+      "d": 2,
+      "n": 3,
+      "degree": 1,
+      "local_feature_dimension": 1,
+      "kappa": 1.4142135623730951,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": -4.0833291259307853e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.02439688904379662,
+      "Ahat_residual_energy_over_A": 1.1253650659868306,
+      "restricted_comparison_bound": 2.0938363213560542,
+      "envelope_energy_amplification": 0.9853044242945787,
+      "proven_amplification": 5.26573091425662,
+      "residual_ranks": [
+        2
+      ],
+      "envelope_ranks": [
+        3
+      ],
+      "output_ranks": [
+        3
+      ],
+      "minimum_feasibility_slack": 2.693938024878051e-06
+    },
+    {
+      "d": 2,
+      "n": 3,
+      "degree": 2,
+      "local_feature_dimension": 1,
+      "kappa": 1.4142135623730951,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": -4.0833291259307853e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 1.0000000000000102,
+      "Ahat_residual_energy_over_A": 1.4442822699761404,
+      "restricted_comparison_bound": 4.384150540629853,
+      "envelope_energy_amplification": 1.159255602673321,
+      "proven_amplification": 33.634375442199975,
+      "residual_ranks": [
+        1
+      ],
+      "envelope_ranks": [
+        2
+      ],
+      "output_ranks": [
+        3
+      ],
+      "minimum_feasibility_slack": 0.0016188401905661287
+    },
+    {
+      "d": 2,
+      "n": 4,
+      "degree": 1,
+      "local_feature_dimension": 2,
+      "kappa": 2.2882456112707388,
+      "c": 0.4239856889474127,
+      "Ahat_minus_A_min_eigenvalue": 7.009338839049347e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.00966514854558898,
+      "Ahat_residual_energy_over_A": 1.0979347711198493,
+      "restricted_comparison_bound": 2.3585701736362874,
+      "envelope_energy_amplification": 1.042864056686038,
+      "proven_amplification": 8.819330751010243,
+      "residual_ranks": [
+        2
+      ],
+      "envelope_ranks": [
+        3
+      ],
+      "output_ranks": [
+        2
+      ],
+      "minimum_feasibility_slack": 8.922510896125502e-06
+    },
+    {
+      "d": 2,
+      "n": 4,
+      "degree": 2,
+      "local_feature_dimension": 2,
+      "kappa": 2.2882456112707388,
+      "c": 0.4239856889474127,
+      "Ahat_minus_A_min_eigenvalue": 7.009338839049347e-16,
+      "actual_TT_SVD_rank_cap": 2,
+      "projected_error_squared_over_original": 1.0000000000000255,
+      "Ahat_residual_energy_over_A": 1.60841093220839,
+      "restricted_comparison_bound": 5.562853263966706,
+      "envelope_energy_amplification": 1.3723487284722011,
+      "proven_amplification": 71.6261567759068,
+      "residual_ranks": [
+        1
+      ],
+      "envelope_ranks": [
+        2
+      ],
+      "output_ranks": [
+        4
+      ],
+      "minimum_feasibility_slack": 0.00015080155710678333
+    },
+    {
+      "d": 2,
+      "n": 5,
+      "degree": 1,
+      "local_feature_dimension": 1,
+      "kappa": 1.732050807568882,
+      "c": 0.39566104149607556,
+      "Ahat_minus_A_min_eigenvalue": 2.9666884163427915e-17,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.015075692551566992,
+      "Ahat_residual_energy_over_A": 1.0553795636947947,
+      "restricted_comparison_bound": 2.5274158815808474,
+      "envelope_energy_amplification": 0.987849791779763,
+      "proven_amplification": 6.9166062092610465,
+      "residual_ranks": [
+        2
+      ],
+      "envelope_ranks": [
+        3
+      ],
+      "output_ranks": [
+        3
+      ],
+      "minimum_feasibility_slack": 1.3110111548586545e-06
+    },
+    {
+      "d": 2,
+      "n": 5,
+      "degree": 2,
+      "local_feature_dimension": 1,
+      "kappa": 1.732050807568882,
+      "c": 0.39566104149607556,
+      "Ahat_minus_A_min_eigenvalue": 2.9666884163427915e-17,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 1.0000000000000007,
+      "Ahat_residual_energy_over_A": 1.1848316298593256,
+      "restricted_comparison_bound": 6.387831038467091,
+      "envelope_energy_amplification": 1.1590264729645747,
+      "proven_amplification": 52.03323220177435,
+      "residual_ranks": [
+        1
+      ],
+      "envelope_ranks": [
+        2
+      ],
+      "output_ranks": [
+        3
+      ],
+      "minimum_feasibility_slack": 0.0005339642667214761
+    },
+    {
+      "d": 3,
+      "n": 3,
+      "degree": 1,
+      "local_feature_dimension": 2,
+      "kappa": 1.7320508075688772,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": -4.447642899411696e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.026803804485335158,
+      "Ahat_residual_energy_over_A": 1.2173279363787781,
+      "restricted_comparison_bound": 2.0938363213560542,
+      "envelope_energy_amplification": 0.9257455525241952,
+      "proven_amplification": 6.295439573338769,
+      "residual_ranks": [
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 4.5352030592527015e-05
+    },
+    {
+      "d": 3,
+      "n": 3,
+      "degree": 2,
+      "local_feature_dimension": 2,
+      "kappa": 1.7320508075688772,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": -4.447642899411696e-16,
+      "actual_TT_SVD_rank_cap": 2,
+      "projected_error_squared_over_original": 0.9968095402022544,
+      "Ahat_residual_energy_over_A": 1.7377166556221444,
+      "restricted_comparison_bound": 4.384150540629853,
+      "envelope_energy_amplification": 0.9234965110727088,
+      "proven_amplification": 43.1069031003646,
+      "residual_ranks": [
+        3,
+        3
+      ],
+      "envelope_ranks": [
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 8.273052614249377e-05
+    },
+    {
+      "d": 3,
+      "n": 4,
+      "degree": 1,
+      "local_feature_dimension": 1,
+      "kappa": 1.6180339887498965,
+      "c": 0.4239856889474127,
+      "Ahat_minus_A_min_eigenvalue": 7.299189476897848e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.018118088262615992,
+      "Ahat_residual_energy_over_A": 1.1012757059305442,
+      "restricted_comparison_bound": 2.3585701736362874,
+      "envelope_energy_amplification": 1.0251181324884704,
+      "proven_amplification": 6.277537052875563,
+      "residual_ranks": [
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 3.243649260298298e-08
+    },
+    {
+      "d": 3,
+      "n": 4,
+      "degree": 2,
+      "local_feature_dimension": 1,
+      "kappa": 1.6180339887498965,
+      "c": 0.4239856889474127,
+      "Ahat_minus_A_min_eigenvalue": 7.299189476897848e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.9999964529468821,
+      "Ahat_residual_energy_over_A": 1.2953534186327949,
+      "restricted_comparison_bound": 5.562853263966706,
+      "envelope_energy_amplification": 1.2631467017997249,
+      "proven_amplification": 44.52160486268174,
+      "residual_ranks": [
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 1.428530427949326e-06
+    },
+    {
+      "d": 3,
+      "n": 5,
+      "degree": 1,
+      "local_feature_dimension": 2,
+      "kappa": 2.6457513110645974,
+      "c": 0.39566104149607556,
+      "Ahat_minus_A_min_eigenvalue": -7.130585950549228e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.009501286059780949,
+      "Ahat_residual_energy_over_A": 1.081244576558374,
+      "restricted_comparison_bound": 2.5274158815808474,
+      "envelope_energy_amplification": 1.051669433589348,
+      "proven_amplification": 10.684254406196294,
+      "residual_ranks": [
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3
+      ],
+      "output_ranks": [
+        2,
+        3
+      ],
+      "minimum_feasibility_slack": 5.152183674139721e-08
+    },
+    {
+      "d": 3,
+      "n": 5,
+      "degree": 2,
+      "local_feature_dimension": 2,
+      "kappa": 2.6457513110645974,
+      "c": 0.39566104149607556,
+      "Ahat_minus_A_min_eigenvalue": -7.130585950549228e-16,
+      "actual_TT_SVD_rank_cap": 2,
+      "projected_error_squared_over_original": 0.9866681159134525,
+      "Ahat_residual_energy_over_A": 1.2858723320311045,
+      "restricted_comparison_bound": 6.387831038467091,
+      "envelope_energy_amplification": 1.4866772373833252,
+      "proven_amplification": 95.89684512800545,
+      "residual_ranks": [
+        3,
+        3
+      ],
+      "envelope_ranks": [
+        5,
+        5
+      ],
+      "output_ranks": [
+        5,
+        5
+      ],
+      "minimum_feasibility_slack": 6.790585060034715e-06
+    },
+    {
+      "d": 4,
+      "n": 3,
+      "degree": 1,
+      "local_feature_dimension": 1,
+      "kappa": 1.4142135623730951,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": -1.1102230246251565e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.024868228277719773,
+      "Ahat_residual_energy_over_A": 1.184670557226544,
+      "restricted_comparison_bound": 2.0938363213560542,
+      "envelope_energy_amplification": 1.0719908787172274,
+      "proven_amplification": 5.26573091425662,
+      "residual_ranks": [
+        2,
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 9.188478866661853e-09
+    },
+    {
+      "d": 4,
+      "n": 3,
+      "degree": 2,
+      "local_feature_dimension": 1,
+      "kappa": 1.4142135623730951,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": -1.1102230246251565e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.9999990852485857,
+      "Ahat_residual_energy_over_A": 1.5223174019695722,
+      "restricted_comparison_bound": 4.384150540629853,
+      "envelope_energy_amplification": 1.2717602783184614,
+      "proven_amplification": 33.634375442199975,
+      "residual_ranks": [
+        2,
+        4,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        9,
+        3
+      ],
+      "output_ranks": [
+        3,
+        9,
+        3
+      ],
+      "minimum_feasibility_slack": 8.311252219783682e-08
+    },
+    {
+      "d": 4,
+      "n": 4,
+      "degree": 1,
+      "local_feature_dimension": 2,
+      "kappa": 2.2882456112707388,
+      "c": 0.4239856889474127,
+      "Ahat_minus_A_min_eigenvalue": 2.6407687225397624e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.011081105870492726,
+      "Ahat_residual_energy_over_A": 1.1606701839362632,
+      "restricted_comparison_bound": 2.3585701736362874,
+      "envelope_energy_amplification": 1.0332221454636434,
+      "proven_amplification": 8.819330751010243,
+      "residual_ranks": [
+        2,
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 6.37286414750804e-08
+    },
+    {
+      "d": 4,
+      "n": 4,
+      "degree": 2,
+      "local_feature_dimension": 2,
+      "kappa": 2.2882456112707388,
+      "c": 0.4239856889474127,
+      "Ahat_minus_A_min_eigenvalue": 2.6407687225397624e-16,
+      "actual_TT_SVD_rank_cap": 2,
+      "projected_error_squared_over_original": 0.9996287497274107,
+      "Ahat_residual_energy_over_A": 1.4739834049976894,
+      "restricted_comparison_bound": 5.562853263966706,
+      "envelope_energy_amplification": 1.4702784667906512,
+      "proven_amplification": 71.6261567759068,
+      "residual_ranks": [
+        3,
+        6,
+        3
+      ],
+      "envelope_ranks": [
+        4,
+        14,
+        4
+      ],
+      "output_ranks": [
+        4,
+        14,
+        4
+      ],
+      "minimum_feasibility_slack": 4.732576726296234e-05
+    },
+    {
+      "d": 5,
+      "n": 3,
+      "degree": 1,
+      "local_feature_dimension": 1,
+      "kappa": 1.4142135623730951,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": 2.590850786228245e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.018317793471284958,
+      "Ahat_residual_energy_over_A": 1.2045516908076668,
+      "restricted_comparison_bound": 2.0938363213560542,
+      "envelope_energy_amplification": 1.1248564740128886,
+      "proven_amplification": 5.26573091425662,
+      "residual_ranks": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "output_ranks": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "minimum_feasibility_slack": 3.1497163908156267e-06
+    },
+    {
+      "d": 5,
+      "n": 3,
+      "degree": 2,
+      "local_feature_dimension": 1,
+      "kappa": 1.4142135623730951,
+      "c": 0.47759225007251715,
+      "Ahat_minus_A_min_eigenvalue": 2.590850786228245e-16,
+      "actual_TT_SVD_rank_cap": 1,
+      "projected_error_squared_over_original": 0.9999996805155961,
+      "Ahat_residual_energy_over_A": 1.5483833913835272,
+      "restricted_comparison_bound": 4.384150540629853,
+      "envelope_energy_amplification": 1.4020415597831204,
+      "proven_amplification": 33.634375442199975,
+      "residual_ranks": [
+        2,
+        4,
+        4,
+        2
+      ],
+      "envelope_ranks": [
+        3,
+        9,
+        9,
+        3
+      ],
+      "output_ranks": [
+        3,
+        9,
+        9,
+        3
+      ],
+      "minimum_feasibility_slack": 1.3270802234899293e-09
+    }
+  ],
+  "actual_rounding_counterexamples": [
+    {
+      "d": 4,
+      "epsilon": 0.25,
+      "obstacle": "psi=U=B+epsilon*checkerboard",
+      "TT_SVD_result": "B (rank one)",
+      "raw_relative_A_error": 0.1972906344096365,
+      "minimal_nonnegative_repair_relative_A_error": 0.15731407261760397,
+      "repair_error_over_raw_error": 0.7973722274670736,
+      "signed_correction_alternative": "epsilon*checkerboard returns U exactly with TT rank <= 2"
+    },
+    {
+      "d": 6,
+      "epsilon": 0.25,
+      "obstacle": "psi=U=B+epsilon*checkerboard",
+      "TT_SVD_result": "B (rank one)",
+      "raw_relative_A_error": 0.1198769303267721,
+      "minimal_nonnegative_repair_relative_A_error": 0.13781538695210532,
+      "repair_error_over_raw_error": 1.149640607049537,
+      "signed_correction_alternative": "epsilon*checkerboard returns U exactly with TT rank <= 2"
+    },
+    {
+      "d": 8,
+      "epsilon": 0.25,
+      "obstacle": "psi=U=B+epsilon*checkerboard",
+      "TT_SVD_result": "B (rank one)",
+      "raw_relative_A_error": 0.07225921358172001,
+      "minimal_nonnegative_repair_relative_A_error": 0.12980278967122877,
+      "repair_error_over_raw_error": 1.7963493267807447,
+      "signed_correction_alternative": "epsilon*checkerboard returns U exactly with TT rank <= 2"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": "0.1.0",
+  "date": "2026-09-20",
+  "python": "3.11.2",
+  "numpy": "2.4.6",
+  "platform": "Linux",
+  "architecture": "aarch64",
+  "unit_tests": {
+    "passed": 53,
+    "failed": 0
+  },
+  "independent_research_audits_passed": [
+    "verify_theory.py",
+    "verify_spectral.py",
+    "verify_multidim.py",
+    "verify_interaction.py",
+    "verify_solution_structure.py",
+    "verify_contact_approximation.py"
+  ],
+  "examples_passed": [
+    "compression_and_repair.py",
+    "rank_energy_tradeoff.py",
+    "failure_cases.py"
+  ],
+  "dimension_sweep": [
+    4,
+    8,
+    16
+  ],
+  "installation": {
+    "wheel_built": true,
+    "wheel_installed_in_separate_virtual_environment": true,
+    "system_site_packages_enabled": false,
+    "tests_and_examples_used_installed_package": true,
+    "python_isolated_mode": true,
+    "execution_outside_source_directory": true,
+    "numpy_installed_separately_in_validation_environment": true
+  },
+  "documentation_python_snippets_passed": 6,
+  "github_actions_run": false,
+  "scope": "Local floating-point validation; not interval certification or an external mathematical review.",
+  "source_sha256": {
+    "src/tt_obstacle/__init__.py": "fe8eecfe39cb76c6b14c40b0d45a321d2156e67b591b2a11d79686eed3d378a1",
+    "src/tt_obstacle/certificates.py": "749fee3ee831ab1095a74855e60cd28a52201c742c159693bab0b54a82d7979f",
+    "src/tt_obstacle/compression.py": "3208198f411ee469b2d1678fe68ec596b3701eea3a9df13a719935ea68b84b51",
+    "src/tt_obstacle/interaction.py": "7ed861cc8ab2643b9a5e6ddb251539d89e717db6fcb13373603bf205d7031878",
+    "src/tt_obstacle/operators.py": "eb1c8d3a92c63b2c61d8a0fc409f4682dd7582aa2c99f12632d207e73fb1ecf7",
+    "src/tt_obstacle/reference.py": "af8827fdc2bcbc6446cfc1fe88d7b9c6afea55f578e9edd984b11dcf99824130",
+    "src/tt_obstacle/repair.py": "c3ca38b4aec97a83a94dc81664f6c9a5a34b117eb5df59406f26996a6789ce3f",
+    "src/tt_obstacle/tensor.py": "f01103229995ab9c79ee223d8f9c76afe7d868546421a9f19b099848086831c8"
+  }
+}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this research software, cite this version and its accompanying mathematical notes."
+title: "tt-obstacle: Feasibility-preserving tensor-train approximation for discrete obstacle problems"
+type: software
+version: 0.1.0
+date-released: 2026-09-20
+authors:
+  - name: "tt-obstacle contributors"
+license: MIT
+abstract: >-
+  NumPy research software for Q1 energy contractions, tensor-train rounding,
+  positive envelope repairs, interaction projections, and small independent
+  reference obstacle problems. Accompanied by exact-arithmetic derivations
+  and reproducible floating-point audits; no general low-rank solver or
+  interval certification is claimed.

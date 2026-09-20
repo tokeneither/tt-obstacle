@@ -1,0 +1,81 @@
+{
+  "primal_dual_random_cases": 120,
+  "largest_error_over_sharp_bound": 0.9916929729564513,
+  "sharpness_scalar_max_residual": 2.831068712794149e-15,
+  "tt_envelope_cases": 24,
+  "local_envelope_selected": 24,
+  "local_over_global_energy_range": [
+    0.35259847800317934,
+    0.4158918063621583
+  ],
+  "mesh_counterexample": [
+    {
+      "n": 7,
+      "h": 0.125,
+      "bubble_energy": 0.57282196186948,
+      "constant_interior_lift_energy": 4.0,
+      "input_error": 0.5,
+      "repaired_error": 0.7791937224739794,
+      "ratio": 1.5583874449479589
+    },
+    {
+      "n": 15,
+      "h": 0.0625,
+      "bubble_energy": 0.5762215285808054,
+      "constant_interior_lift_energy": 5.656854249492381,
+      "input_error": 0.3535533905932738,
+      "repaired_error": 0.6972166887783964,
+      "ratio": 1.9720265943665387
+    },
+    {
+      "n": 31,
+      "h": 0.03125,
+      "bubble_energy": 0.5770682910193559,
+      "constant_interior_lift_energy": 8.0,
+      "input_error": 0.25,
+      "repaired_error": 0.642889144108767,
+      "ratio": 2.571556576435068
+    },
+    {
+      "n": 63,
+      "h": 0.015625,
+      "bubble_energy": 0.577279787559724,
+      "constant_interior_lift_energy": 11.313708498984761,
+      "input_error": 0.1767766952966369,
+      "repaired_error": 0.6116970495459996,
+      "ratio": 3.4602810541262383
+    },
+    {
+      "n": 127,
+      "h": 0.0078125,
+      "bubble_energy": 0.5773326495888224,
+      "constant_interior_lift_energy": 16.0,
+      "input_error": 0.125,
+      "repaired_error": 0.594946732214933,
+      "ratio": 4.759573857719464
+    },
+    {
+      "n": 255,
+      "h": 0.00390625,
+      "bubble_energy": 0.5773458643398361,
+      "constant_interior_lift_energy": 22.627416997969522,
+      "input_error": 0.08838834764831845,
+      "repaired_error": 0.5862584224627351,
+      "ratio": 6.6327568968180435
+    }
+  ],
+  "clipping_rank_example": {
+    "before": 2,
+    "after": 12
+  },
+  "inexact_proximal": {
+    "q": 0.5,
+    "theta": 0.125,
+    "proven_qhat": 0.7142857142857143,
+    "initial_error_M": 2.1454390555932865,
+    "final_error_M": 5.757913408804009e-13,
+    "steps": 24,
+    "max_observed_ratio": 0.30990091761778293
+  },
+  "status": "all numerical consistency checks passed; not interval certification"
+}

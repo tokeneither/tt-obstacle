@@ -1,0 +1,52 @@
+{
+  "package_version": "0.1.0",
+  "numpy_version": "2.4.6",
+  "scope": "3x3 nodal reference QP; floating-point diagnostics, not a performance benchmark",
+  "shape": [
+    3,
+    3
+  ],
+  "contact_nodes": 4,
+  "original": {
+    "stored_core_ranks": [
+      3
+    ],
+    "stored_floats": 18
+  },
+  "raw": {
+    "stored_core_ranks": [
+      1
+    ],
+    "stored_floats": 6,
+    "minimum_slack": -0.010958363350375588,
+    "relative_energy_error": 0.021444077929056695
+  },
+  "repairs": [
+    {
+      "method": "quadratic",
+      "stored_core_ranks": [
+        12
+      ],
+      "stored_floats": 72,
+      "minimum_slack": 0.0024102228363249156,
+      "minimum_increment_over_original": 1.4283297710693255e-06,
+      "energy_error": 0.050148085570839655,
+      "computed_triangle_bound": 0.06749469338331057,
+      "relative_energy_error": 0.0346930977032471,
+      "rounding_mass_tolerance_met": false
+    },
+    {
+      "method": "core",
+      "stored_core_ranks": [
+        2
+      ],
+      "stored_floats": 12,
+      "minimum_slack": 0.0008776354854131418,
+      "minimum_increment_over_original": 0.0008776354854131418,
+      "energy_error": 0.05574292945955761,
+      "computed_triangle_bound": 0.07678816729536737,
+      "relative_energy_error": 0.03856368345854011,
+      "rounding_mass_tolerance_met": false
+    }
+  ]
+}

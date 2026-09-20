@@ -1,0 +1,31 @@
+{
+  "package_version": "0.1.0",
+  "numpy_version": "2.4.6",
+  "scope": "psi=original; nonnegative-correction obstruction; signed epsilon*parity restores the input exactly",
+  "cases": [
+    {
+      "dimension": 4,
+      "raw_maximum_bond": 1,
+      "repair_error_over_rounding_error": 0.7973722274670713,
+      "predicted_ratio": 0.7973722274670736
+    },
+    {
+      "dimension": 8,
+      "raw_maximum_bond": 1,
+      "repair_error_over_rounding_error": 1.7963493267807575,
+      "predicted_ratio": 1.7963493267807453
+    },
+    {
+      "dimension": 16,
+      "raw_maximum_bond": 1,
+      "repair_error_over_rounding_error": 13.322357432559746,
+      "predicted_ratio": 13.3223574325595
+    },
+    {
+      "dimension": 32,
+      "raw_maximum_bond": 1,
+      "repair_error_over_rounding_error": 792.6201019296532,
+      "predicted_ratio": 792.6201019296174
+    }
+  ]
+}

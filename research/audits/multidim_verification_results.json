@@ -1,0 +1,259 @@
+{
+  "status": "passed",
+  "scope": "Floating-point audits, not interval certification or a PDE solver",
+  "additive_Q1_cases": [
+    {
+      "d": 2,
+      "n": 3,
+      "nonuniform_mesh": false,
+      "kappa": 1.6453287760160726,
+      "energy_amplification": 1.007896913003776,
+      "proven_amplification": 1.9838498359956134,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "9"
+    },
+    {
+      "d": 3,
+      "n": 4,
+      "nonuniform_mesh": false,
+      "kappa": 1.7846426139234994,
+      "energy_amplification": 1.0689388316923243,
+      "proven_amplification": 2.208721366765053,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "64"
+    },
+    {
+      "d": 4,
+      "n": 3,
+      "nonuniform_mesh": false,
+      "kappa": 1.6453287760160726,
+      "energy_amplification": 1.116800578130249,
+      "proven_amplification": 1.9838498359956134,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "81"
+    },
+    {
+      "d": 8,
+      "n": 7,
+      "nonuniform_mesh": false,
+      "kappa": 1.9203146086853815,
+      "energy_amplification": 1.1613973069598194,
+      "proven_amplification": 2.448145757624778,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "5764801"
+    },
+    {
+      "d": 16,
+      "n": 7,
+      "nonuniform_mesh": false,
+      "kappa": 1.9203146086853817,
+      "energy_amplification": 1.2050493313158281,
+      "proven_amplification": 2.4481457576247783,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "33232930569601"
+    },
+    {
+      "d": 32,
+      "n": 7,
+      "nonuniform_mesh": false,
+      "kappa": 1.9203146086853815,
+      "energy_amplification": 1.226490023896766,
+      "proven_amplification": 2.448145757624778,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "1104427674243920646305299201"
+    },
+    {
+      "d": 64,
+      "n": 7,
+      "nonuniform_mesh": false,
+      "kappa": 1.9203146086853817,
+      "energy_amplification": 1.2420956691808613,
+      "proven_amplification": 2.4481457576247783,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "1219760487635835700138573862562971820755615294131238401"
+    },
+    {
+      "d": 8,
+      "n": 15,
+      "nonuniform_mesh": false,
+      "kappa": 1.9805670240991258,
+      "energy_amplification": 1.1387139925440377,
+      "proven_amplification": 2.560880759206725,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "2562890625"
+    },
+    {
+      "d": 32,
+      "n": 15,
+      "nonuniform_mesh": false,
+      "kappa": 1.9805670240991256,
+      "energy_amplification": 1.197913092747431,
+      "proven_amplification": 2.5608807592067246,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "43143988327398919500410556793212890625"
+    },
+    {
+      "d": 2,
+      "n": 3,
+      "nonuniform_mesh": true,
+      "kappa": 12.713587805962733,
+      "energy_amplification": 1.5191321322645022,
+      "proven_amplification": 81.32073175488146,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "9"
+    },
+    {
+      "d": 3,
+      "n": 4,
+      "nonuniform_mesh": true,
+      "kappa": 11.736837625870843,
+      "energy_amplification": 1.37461759396713,
+      "proven_amplification": 69.38028215085406,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "64"
+    },
+    {
+      "d": 4,
+      "n": 3,
+      "nonuniform_mesh": true,
+      "kappa": 18.156789888323438,
+      "energy_amplification": 2.8441665434847,
+      "proven_amplification": 165.33602160346481,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "81"
+    },
+    {
+      "d": 8,
+      "n": 5,
+      "nonuniform_mesh": true,
+      "kappa": 15.12385704775968,
+      "energy_amplification": 1.389234806449414,
+      "proven_amplification": 114.86770243797687,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "390625"
+    },
+    {
+      "d": 16,
+      "n": 5,
+      "nonuniform_mesh": true,
+      "kappa": 36.71144320286105,
+      "energy_amplification": 3.3942126995963293,
+      "proven_amplification": 674.3654017374483,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "152587890625"
+    },
+    {
+      "d": 32,
+      "n": 5,
+      "nonuniform_mesh": true,
+      "kappa": 41.21608795624825,
+      "energy_amplification": 1.880396993183443,
+      "proven_amplification": 849.8832473666985,
+      "input_TT_core_rank": 2,
+      "envelope_TT_core_rank": 3,
+      "full_entries_not_assembled": "23283064365386962890625"
+    }
+  ],
+  "Q1_no_go": [
+    {
+      "d": 2,
+      "absolute_envelope_min_ratio": 0.7453559924999299,
+      "positive_repair_min_error_ratio": null
+    },
+    {
+      "d": 4,
+      "absolute_envelope_min_ratio": 1.2422599874998834,
+      "positive_repair_min_error_ratio": 0.7973722274670736
+    },
+    {
+      "d": 8,
+      "absolute_envelope_min_ratio": 3.4507221874996756,
+      "positive_repair_min_error_ratio": 1.7963493267807453
+    },
+    {
+      "d": 16,
+      "absolute_envelope_min_ratio": 26.625942804781456,
+      "positive_repair_min_error_ratio": 13.3223574325595
+    },
+    {
+      "d": 32,
+      "absolute_envelope_min_ratio": 1585.23988844959,
+      "positive_repair_min_error_ratio": 792.6201019296174
+    },
+    {
+      "d": 64,
+      "absolute_envelope_min_ratio": 5619206.413262776,
+      "positive_repair_min_error_ratio": 2809603.2066314323
+    }
+  ],
+  "Boolean_low_interaction_cases": [
+    {
+      "d": 4,
+      "interaction_degree": 1,
+      "energy_amplification": 0.9666016863774565,
+      "proven_amplification": 1.7320508075688772
+    },
+    {
+      "d": 4,
+      "interaction_degree": 2,
+      "energy_amplification": 1.0312231354159513,
+      "proven_amplification": 5.196152422706632
+    },
+    {
+      "d": 4,
+      "interaction_degree": 3,
+      "energy_amplification": 0.9255951501228451,
+      "proven_amplification": 15.588457268119896
+    },
+    {
+      "d": 6,
+      "interaction_degree": 1,
+      "energy_amplification": 1.0594571862861957,
+      "proven_amplification": 1.7320508075688772
+    },
+    {
+      "d": 6,
+      "interaction_degree": 2,
+      "energy_amplification": 1.0702871605934767,
+      "proven_amplification": 5.196152422706632
+    },
+    {
+      "d": 6,
+      "interaction_degree": 3,
+      "energy_amplification": 1.188092594857125,
+      "proven_amplification": 15.588457268119896
+    },
+    {
+      "d": 8,
+      "interaction_degree": 1,
+      "energy_amplification": 1.039085951606747,
+      "proven_amplification": 1.7320508075688772
+    },
+    {
+      "d": 8,
+      "interaction_degree": 2,
+      "energy_amplification": 1.0095892049938433,
+      "proven_amplification": 5.196152422706632
+    },
+    {
+      "d": 8,
+      "interaction_degree": 3,
+      "energy_amplification": 1.0608808211896246,
+      "proven_amplification": 15.588457268119896
+    }
+  ]
+}

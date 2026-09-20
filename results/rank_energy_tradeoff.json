@@ -1,0 +1,33 @@
+{
+  "package_version": "0.1.0",
+  "numpy_version": "2.4.6",
+  "seed": 20260920,
+  "dimension": 8,
+  "mode_size": 3,
+  "dense_tensor_entries_not_assembled": "6561",
+  "original_stored_floats": 558,
+  "original_maximum_stored_bond": 6,
+  "scope": "Core-only constructed-input experiment; sampling is not a global numerical certificate",
+  "repairs": [
+    {
+      "method": "quadratic",
+      "stored_floats": 13032,
+      "maximum_stored_bond": 30,
+      "relative_energy_error": 0.012512099498315863,
+      "relative_triangle_bound": 0.01953302799696439,
+      "sampled_minimum_increment": 2.788459923275255e-05,
+      "sample_count": 100,
+      "rounding_mass_tolerance_met": false
+    },
+    {
+      "method": "core",
+      "stored_floats": 84,
+      "maximum_stored_bond": 2,
+      "relative_energy_error": 0.17494911966704918,
+      "relative_triangle_bound": 0.18333762942065904,
+      "sampled_minimum_increment": 0.285032239263022,
+      "sample_count": 100,
+      "rounding_mass_tolerance_met": false
+    }
+  ]
+}

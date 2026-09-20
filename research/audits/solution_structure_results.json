@@ -1,0 +1,536 @@
+{
+  "status": "passed",
+  "floating_point_not_interval_certificate": true,
+  "independent_QP_cases": 12,
+  "maximum_full_QP_nodes": 12,
+  "QP_cases": [
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "data_interaction_degree": 1,
+      "active_nodes": 1,
+      "nodes": 4,
+      "max_complementarity_residual": 5.016874181823188e-16,
+      "solution_energy_over_free_energy": 0.5760099600191099,
+      "influence_solution_over_data": 0.5208335179419418,
+      "cylinder_error_over_data_tail": [
+        0.555937182218468,
+        0.5001312115048662
+      ],
+      "degree_tail_bound_ratios": [
+        0.4324681265100726,
+        0.17673078286373808
+      ],
+      "AG_regularity_solution_over_data": 0.520833517941942,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.4324681265100727
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "data_interaction_degree": null,
+      "active_nodes": 2,
+      "nodes": 4,
+      "max_complementarity_residual": 0.0,
+      "solution_energy_over_free_energy": 0.8399748723870152,
+      "influence_solution_over_data": 0.7632855944016017,
+      "cylinder_error_over_data_tail": [
+        0.6668151141978953,
+        0.9999872338058785
+      ],
+      "degree_tail_bound_ratios": [
+        0.5731947240561149,
+        0.3801817406909734
+      ],
+      "AG_regularity_solution_over_data": 0.7632855944016018,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.5731947240561148
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        3
+      ],
+      "data_interaction_degree": 1,
+      "active_nodes": 3,
+      "nodes": 6,
+      "max_complementarity_residual": 1.48431581483806e-17,
+      "solution_energy_over_free_energy": 0.5965184394463892,
+      "influence_solution_over_data": 0.4443056022743849,
+      "cylinder_error_over_data_tail": [
+        0.5432957560871086,
+        0.5464652028577267
+      ],
+      "degree_tail_bound_ratios": [
+        0.43640232697219256,
+        0.015806550604384538
+      ],
+      "AG_regularity_solution_over_data": 0.4793274528983082,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.22627799387821018
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.46633527391812374
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        3
+      ],
+      "data_interaction_degree": null,
+      "active_nodes": 3,
+      "nodes": 6,
+      "max_complementarity_residual": 1.913424304883522e-17,
+      "solution_energy_over_free_energy": 0.6442323818158167,
+      "influence_solution_over_data": 0.4461823745694859,
+      "cylinder_error_over_data_tail": [
+        0.605273066880204,
+        0.5839668124649736
+      ],
+      "degree_tail_bound_ratios": [
+        0.2419884051424032,
+        0.4083879388541654
+      ],
+      "AG_regularity_solution_over_data": 0.4566492407323645,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.18353885853297047
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.2119649790937332
+        }
+      ]
+    },
+    {
+      "shape": [
+        3,
+        3
+      ],
+      "data_interaction_degree": 1,
+      "active_nodes": 4,
+      "nodes": 9,
+      "max_complementarity_residual": 9.673039894295988e-16,
+      "solution_energy_over_free_energy": 0.6940630461359475,
+      "influence_solution_over_data": 0.5682988191967523,
+      "cylinder_error_over_data_tail": [
+        0.643095948034909,
+        0.5106441530985428
+      ],
+      "degree_tail_bound_ratios": [
+        0.5433748569309189,
+        0.049847924531666726
+      ],
+      "AG_regularity_solution_over_data": 0.66483814093162,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 27.78860313614411,
+          "bound_ratio": 0.5213135745018843
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.23568082964253692
+        }
+      ]
+    },
+    {
+      "shape": [
+        3,
+        3
+      ],
+      "data_interaction_degree": null,
+      "active_nodes": 2,
+      "nodes": 9,
+      "max_complementarity_residual": 5.249259714097514e-17,
+      "solution_energy_over_free_energy": 0.7738743930421259,
+      "influence_solution_over_data": 0.7896137247565432,
+      "cylinder_error_over_data_tail": [
+        0.7283372309452018,
+        0.8862428647219941
+      ],
+      "degree_tail_bound_ratios": [
+        0.5473666543806165,
+        0.48449414075185315
+      ],
+      "AG_regularity_solution_over_data": 0.8108951131387611,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 27.78860313614411,
+          "bound_ratio": 0.39755639105942536
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.4297299957834818
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "data_interaction_degree": 1,
+      "active_nodes": 4,
+      "nodes": 8,
+      "max_complementarity_residual": 1.2291041337155126e-16,
+      "solution_energy_over_free_energy": 0.5791900931217194,
+      "influence_solution_over_data": 0.44080596759591917,
+      "cylinder_error_over_data_tail": [
+        0.4979988331351371,
+        0.5147058823529412,
+        0.5147058823529415
+      ],
+      "degree_tail_bound_ratios": [
+        0.38544659868139935,
+        0.11071873782903977,
+        1.2737272964685715e-32
+      ],
+      "AG_regularity_solution_over_data": 0.44080596759591895,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.3854465986813992
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "data_interaction_degree": 2,
+      "active_nodes": 5,
+      "nodes": 8,
+      "max_complementarity_residual": 1.24818144232771e-16,
+      "solution_energy_over_free_energy": 0.6019769667039616,
+      "influence_solution_over_data": 0.4360104016445067,
+      "cylinder_error_over_data_tail": [
+        0.38867889652961013,
+        0.6030480885706654,
+        0.5788949497044543
+      ],
+      "degree_tail_bound_ratios": [
+        0.254989556340789,
+        0.3345363621213203,
+        0.04125799272917271
+      ],
+      "AG_regularity_solution_over_data": 0.4360104016445066,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.25498955634078896
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "data_interaction_degree": null,
+      "active_nodes": 4,
+      "nodes": 8,
+      "max_complementarity_residual": 2.806329039015883e-19,
+      "solution_energy_over_free_energy": 0.5459663956176974,
+      "influence_solution_over_data": 0.37040183054967135,
+      "cylinder_error_over_data_tail": [
+        0.4732425398670026,
+        0.5179201451102428,
+        0.41123587875358847
+      ],
+      "degree_tail_bound_ratios": [
+        0.21484641494137632,
+        0.2926496363149947,
+        0.027691792352393052
+      ],
+      "AG_regularity_solution_over_data": 0.3704018305496715,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.21484641494137627
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "data_interaction_degree": 1,
+      "active_nodes": 4,
+      "nodes": 12,
+      "max_complementarity_residual": 8.10141506495709e-17,
+      "solution_energy_over_free_energy": 0.6203122026607274,
+      "influence_solution_over_data": 0.4534781922422669,
+      "cylinder_error_over_data_tail": [
+        0.6318121420542412,
+        0.4928817535179987,
+        0.5812788891871427
+      ],
+      "degree_tail_bound_ratios": [
+        0.4070565901762322,
+        0.09042371781919813,
+        0.003629229469306691
+      ],
+      "AG_regularity_solution_over_data": 0.4680981779500362,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.3759970685653086
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.07432407592861764
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "data_interaction_degree": 2,
+      "active_nodes": 6,
+      "nodes": 12,
+      "max_complementarity_residual": 2.6829584372627506e-16,
+      "solution_energy_over_free_energy": 0.6130960180094581,
+      "influence_solution_over_data": 0.4250089075272336,
+      "cylinder_error_over_data_tail": [
+        0.6019678577129847,
+        0.5362329249934666,
+        0.5699583715159184
+      ],
+      "degree_tail_bound_ratios": [
+        0.2618066158900932,
+        0.31971600991543536,
+        0.010032860038268157
+      ],
+      "AG_regularity_solution_over_data": 0.411864342844312,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.15998145285480692
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.2845675703009321
+        }
+      ]
+    },
+    {
+      "shape": [
+        2,
+        2,
+        3
+      ],
+      "data_interaction_degree": null,
+      "active_nodes": 5,
+      "nodes": 12,
+      "max_complementarity_residual": 4.2729549792720265e-17,
+      "solution_energy_over_free_energy": 0.5816159587769446,
+      "influence_solution_over_data": 0.3835674599196354,
+      "cylinder_error_over_data_tail": [
+        0.45443029763907533,
+        0.48667424415888244,
+        0.49189508096698775
+      ],
+      "degree_tail_bound_ratios": [
+        0.19477664201881925,
+        0.29898761461200474,
+        0.11789103178444127
+      ],
+      "AG_regularity_solution_over_data": 0.40162286436507516,
+      "spectral_tail_checks": [
+        {
+          "retained_modes": 1,
+          "threshold": 25.92,
+          "bound_ratio": 0.16984959742814112
+        },
+        {
+          "retained_modes": 2,
+          "threshold": 55.57720627228825,
+          "bound_ratio": 0.11377968056915838
+        }
+      ]
+    }
+  ],
+  "reduced_counterexample_cases": [
+    {
+      "m": 2,
+      "d": 12,
+      "reduced_nodes": 4,
+      "minimum_contact_multiplier": 0.25,
+      "solution_energy_over_free_energy": 0.5,
+      "interaction_tails": [
+        {
+          "p": 0,
+          "relative_tail_squared": 0.6875
+        },
+        {
+          "p": 1,
+          "relative_tail_squared": 0.1875
+        },
+        {
+          "p": 1,
+          "relative_tail_squared": 0.1875
+        }
+      ]
+    },
+    {
+      "m": 3,
+      "d": 18,
+      "reduced_nodes": 8,
+      "minimum_contact_multiplier": 0.3333333333333333,
+      "solution_energy_over_free_energy": 0.15345982142857145,
+      "interaction_tails": [
+        {
+          "p": 0,
+          "relative_tail_squared": 0.8046875
+        },
+        {
+          "p": 1,
+          "relative_tail_squared": 0.375
+        },
+        {
+          "p": 2,
+          "relative_tail_squared": 0.07031250000000001
+        }
+      ]
+    },
+    {
+      "m": 4,
+      "d": 24,
+      "reduced_nodes": 16,
+      "minimum_contact_multiplier": 0.375,
+      "solution_energy_over_free_energy": 0.0502642463235294,
+      "interaction_tails": [
+        {
+          "p": 0,
+          "relative_tail_squared": 0.8779296875
+        },
+        {
+          "p": 1,
+          "relative_tail_squared": 0.5361328125
+        },
+        {
+          "p": 2,
+          "relative_tail_squared": 0.1845703125
+        }
+      ]
+    },
+    {
+      "m": 5,
+      "d": 30,
+      "reduced_nodes": 32,
+      "minimum_contact_multiplier": 0.3999999999999999,
+      "solution_energy_over_free_energy": 0.01866182834982014,
+      "interaction_tails": [
+        {
+          "p": 0,
+          "relative_tail_squared": 0.9237060546874994
+        },
+        {
+          "p": 1,
+          "relative_tail_squared": 0.6643066406250001
+        },
+        {
+          "p": 2,
+          "relative_tail_squared": 0.31640624999999994
+        }
+      ]
+    },
+    {
+      "m": 6,
+      "d": 36,
+      "reduced_nodes": 64,
+      "minimum_contact_multiplier": 0.41666666666666663,
+      "solution_energy_over_free_energy": 0.007629394531249996,
+      "interaction_tails": [
+        {
+          "p": 0,
+          "relative_tail_squared": 0.9523162841796875
+        },
+        {
+          "p": 1,
+          "relative_tail_squared": 0.7615814208984383
+        },
+        {
+          "p": 2,
+          "relative_tail_squared": 0.4468688964843752
+        }
+      ]
+    }
+  ],
+  "analytic_large_dimension_tail_values": [
+    {
+      "m": 10,
+      "d": 60,
+      "p": 2,
+      "captured_energy_fraction": 0.18742866814136494
+    },
+    {
+      "m": 20,
+      "d": 120,
+      "p": 2,
+      "captured_energy_fraction": 0.005714825416006351
+    },
+    {
+      "m": 40,
+      "d": 240,
+      "p": 2,
+      "captured_energy_fraction": 1.727319310165384e-06
+    },
+    {
+      "m": 80,
+      "d": 480,
+      "p": 2,
+      "captured_energy_fraction": 4.5167315333636624e-14
+    },
+    {
+      "m": 160,
+      "d": 960,
+      "p": 2,
+      "captured_energy_fraction": 8.267084037064612e-30
+    }
+  ]
+}
