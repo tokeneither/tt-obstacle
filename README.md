@@ -113,15 +113,3 @@ docs/             Setup, mathematics, API, limitations, publishing
 theory/           Derivations and internal reviews, primarily in Russian
 research/audits/  Independent numerical checks of the research notes
 ```
-
-The [mathematical overview](docs/mathematics.md) separates unconditional
-domination from conditional energy guarantees. The [research guide](theory/README.md)
-links detailed proofs, related work, and obstructions. Scientific priority has
-not been established; the notes are working derivations, not a peer-reviewed
-paper.
-
-See [reproduction commands](docs/getting_started.md),
-[contribution guidelines](CONTRIBUTING.md), and
-[manual publishing instructions](docs/publishing.md).
-The project uses the [MIT license](LICENSE); software citation metadata is in
-[CITATION.cff](CITATION.cff).
